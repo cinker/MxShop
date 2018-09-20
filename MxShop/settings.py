@@ -42,10 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'users',
-    'user_operation',
-    'trade',
-    'goods',
+    'users.apps.UsersConfig',
+    'user_operation.apps.UserOperationConfig',
+    'trade.apps.TradeConfig',
+    'goods.apps.GoodsConfig',
     'xadmin',
     'DjangoUeditor',
     'crispy_forms',
@@ -143,7 +143,9 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+# 设置上传文件的路径
+MEDIA_URL="/media/"
+MEDIA_ROOT=os.path.join(BASE_DIR,"media")
 
 # 使用自己写的UserProfile,而不是系统的
 AUTH_USER_MODEL = 'users.UserProfile'
