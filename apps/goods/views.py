@@ -3,6 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import mixins, generics, viewsets
+from rest_framework.authentication import TokenAuthentication
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
@@ -28,7 +29,7 @@ class GoodsPagination(PageNumberPagination):
     max_page_size = 20
 
 
-class GoodsListViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
+class GoodsListViewSet(mixins.ListModelMixin,mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     '''
     商品列表页, 分页, 过滤, 排序
     '''
@@ -36,6 +37,8 @@ class GoodsListViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
     serializer_class = GoodsSerializer
     pagination_class = GoodsPagination
     filter_backends = (DjangoFilterBackend, SearchFilter, OrderingFilter)
+
+    # authentication_classes = (TokenAuthentication,)
     # 自定义过滤器
     filter_class = GoodsFilter
     # 搜索,默认模糊查询
