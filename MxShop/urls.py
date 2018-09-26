@@ -24,7 +24,7 @@ from django.urls import path, include, re_path
 
 from MxShop.settings import MEDIA_ROOT
 from goods.views import GoodsListViewSet, CategoryViewSet
-from user_operation.views import UserFavViewset
+from user_operation.views import UserFavViewset, LeavingMessageViewset, AddressViewset
 from users.views import SmsCodeViewset, UserViewset
 
 router = DefaultRouter()
@@ -42,6 +42,12 @@ router.register(r'users', UserViewset, base_name="users")
 
 # 配置用户收藏的url
 router.register(r'userfavs', UserFavViewset, base_name="userfavs")
+
+# 配置用户留言的url
+router.register(r'messages', LeavingMessageViewset, base_name="messages")
+
+# 配置收货地址
+router.register(r'address', AddressViewset, base_name="address")
 
 urlpatterns = [
     path('admin/', xadmin.site.urls),

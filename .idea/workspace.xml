@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea64070d-a663-4446-84cb-0199b96ff79c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/user_operation/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/utils/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/message/images/新建文本文档.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxShop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MxShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxShop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user_operation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user_operation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/user_operation/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user_operation/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/user_operation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user_operation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,79 +30,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mixins.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/Envs/MxShop/Lib/site-packages/rest_framework/mixins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/goods/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
-              <folding>
-                <element signature="e#123#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MxShop/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="162" column="62" lean-forward="true" selection-start-line="162" selection-start-column="62" selection-end-line="162" selection-end-column="62" />
-              <folding>
-                <element signature="e#307#316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="254">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#123#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-              <folding>
-                <element signature="e#630#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qiniuupload.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/Python/hello/qiniuupload.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/user_operation/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#327#836#0" />
+                <element signature="e#903#1059#0" />
+                <element signature="e#1191#1586#0" />
               </folding>
             </state>
           </provider>
@@ -108,20 +48,85 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="479">
+              <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#645#1394#0" />
+                <element signature="e#1557#1955#0" />
+                <element signature="e#2005#2412#0" />
+                <element signature="e#2005#2133#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generics.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#630#667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="80" selection-start-line="80" selection-end-line="137" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#687#1042#0" />
+                <element signature="e#1114#2157#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewsets.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/Envs/MxShop/Lib/site-packages/rest_framework/viewsets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="159" column="54" lean-forward="true" selection-start-line="159" selection-start-column="54" selection-end-line="159" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
+              <folding>
+                <element signature="e#124#133#0" expanded="true" />
+                <element signature="e#470#1169#0" />
+                <element signature="e#1230#3467#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/user_operation/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generics.py" pinned="false" current-in-tab="false">
         <entry file="file://E:/Envs/MxShop/Lib/site-packages/rest_framework/generics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="87" selection-end-column="69" />
+            <state relative-caret-position="618">
+              <caret line="129" column="36" lean-forward="true" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -129,8 +134,8 @@
       <file leaf-file-name="permissions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/utils/permissions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            <state relative-caret-position="-21">
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -157,7 +162,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/apps/trade/models.py" />
-        <option value="$PROJECT_DIR$/apps/user_operation/models.py" />
         <option value="$PROJECT_DIR$/apps/goods/models.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/views/website.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/views/delete.py" />
@@ -180,16 +184,17 @@
         <option value="$PROJECT_DIR$/apps/users/singles.py" />
         <option value="$PROJECT_DIR$/apps/users/signals.py" />
         <option value="$PROJECT_DIR$/apps/users/apps.py" />
-        <option value="$PROJECT_DIR$/apps/users/serializers.py" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
         <option value="$PROJECT_DIR$/apps/goods/views.py" />
         <option value="$PROJECT_DIR$/apps/goods/serializers.py" />
         <option value="$PROJECT_DIR$/apps/goods/filters.py" />
-        <option value="$PROJECT_DIR$/apps/user_operation/serializers.py" />
-        <option value="$PROJECT_DIR$/MxShop/urls.py" />
         <option value="$PROJECT_DIR$/apps/utils/permissions.py" />
         <option value="$PROJECT_DIR$/MxShop/settings.py" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/apps/users/serializers.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/models.py" />
+        <option value="$PROJECT_DIR$/apps/user_operation/serializers.py" />
         <option value="$PROJECT_DIR$/apps/user_operation/views.py" />
+        <option value="$PROJECT_DIR$/MxShop/urls.py" />
       </list>
     </option>
   </component>
@@ -215,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,6 +260,24 @@
             <path>
               <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="MxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
               <item name="MxShop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -285,25 +309,6 @@
               <item name="MxShop" type="462c0819:PsiDirectoryNode" />
               <item name="Lib" type="462c0819:PsiDirectoryNode" />
               <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (MxShop) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="corsheaders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (MxShop) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="corsheaders" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
@@ -319,13 +324,32 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.6 (MxShop) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="MxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="mixins.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (MxShop) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="viewsets.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="MxShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (MxShop) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="MxShop" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,35 +517,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="manage.py@MxShop" order="16" weight="0.69692534" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5013405" side_tool="true" weight="0.3235725" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.41288432" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.41288432" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.16105418" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.72327965" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7247438" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.6427526" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.24664879" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.17024128" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" sideWeight="0.5013812" side_tool="true" weight="0.18431635" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.38506588" />
-      <window_info active="true" anchor="bottom" id="manage.py@Shop" order="11" weight="0.4378453" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" anchor="bottom" id="REST Client" order="14" weight="0.6353591" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.46783626" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="manage.py@Shop" order="11" weight="0.4378453" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.49932975" weight="0.19152047" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.46783626" />
+      <window_info anchor="bottom" id="manage.py@MxShop" order="16" weight="0.69692534" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +588,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -611,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Envs/MxShop/Lib/site-packages/rest_framework/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Envs/MxShop/Lib/site-packages/django/views/decorators/csrf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -660,26 +676,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/alipay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/sms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#115#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/alipay.py" />
+    <entry file="file://$PROJECT_DIR$/apps/utils/sms.py" />
     <entry file="file://$PROJECT_DIR$/apps/utils/yunpian.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -720,45 +718,17 @@
     </entry>
     <entry file="file://E:/Envs/MxShop/Lib/site-packages/corsheaders/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-946" />
       </provider>
-    </entry>
-    <entry file="file://E:/Envs/MxShop/Lib/site-packages/corsheaders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://E:/Envs/MxShop/Lib/site-packages/corsheaders/checks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Envs/MxShop/Lib/site-packages/corsheaders/compat.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://E:/Envs/MxShop/Lib/site-packages/corsheaders/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://E:/Envs/MxShop/Lib/site-packages/corsheaders/signals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -771,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" selection-start-line="5" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#119#165#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-          <folding>
-            <element signature="e#124#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Envs/MxShop/Lib/site-packages/corsheaders/defaults.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -829,24 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#251#604#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Envs/MxShop/Lib/site-packages/corsheaders/middleware.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,19 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="68" column="73" lean-forward="true" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding>
-            <element signature="e#119#140#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,81 +824,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-          <folding>
-            <element signature="e#630#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Python/hello/qiniuupload.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="e#123#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Envs/MxShop/Lib/site-packages/rest_framework/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MxShop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="162" column="62" lean-forward="true" selection-start-line="162" selection-start-column="62" selection-end-line="162" selection-end-column="62" />
+        <state relative-caret-position="3950">
+          <caret line="162" column="62" selection-start-line="162" selection-start-column="62" selection-end-line="162" selection-end-column="62" />
           <folding>
             <element signature="e#307#316#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/permissions.py">
+    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="704">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Envs/MxShop/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="64" column="14" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Envs/MxShop/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="159" column="54" lean-forward="true" selection-start-line="159" selection-start-column="54" selection-end-line="159" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://E:/Envs/MxShop/Lib/site-packages/rest_framework/generics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="87" selection-end-column="69" />
+        <state relative-caret-position="618">
+          <caret line="129" column="36" lean-forward="true" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="80" selection-start-line="80" selection-end-line="137" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#687#1042#0" />
+            <element signature="e#1114#2157#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#124#133#0" expanded="true" />
+            <element signature="e#470#1169#0" />
+            <element signature="e#1230#3467#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/message/images/新建文本文档.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/message/images/3_P_1448945490837.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#123#161#0" expanded="true" />
+            <element signature="e#327#836#0" />
+            <element signature="e#903#1059#0" />
+            <element signature="e#1191#1586#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#645#1394#0" />
+            <element signature="e#1557#1955#0" />
+            <element signature="e#2005#2412#0" />
+            <element signature="e#2005#2133#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#630#667#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
