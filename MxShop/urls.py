@@ -24,6 +24,7 @@ from django.urls import path, include, re_path
 
 from MxShop.settings import MEDIA_ROOT
 from goods.views import GoodsListViewSet, CategoryViewSet
+from trade.views import ShoppingCartViewset, OrderViewset
 from user_operation.views import UserFavViewset, LeavingMessageViewset, AddressViewset
 from users.views import SmsCodeViewset, UserViewset
 
@@ -48,6 +49,12 @@ router.register(r'messages', LeavingMessageViewset, base_name="messages")
 
 # 配置收货地址
 router.register(r'address', AddressViewset, base_name="address")
+
+# 配置购物车的url
+router.register(r'shopcarts', ShoppingCartViewset, base_name="shopcarts")
+
+# 配置订单的url
+router.register(r'orders', OrderViewset, base_name="orders")
 
 urlpatterns = [
     path('admin/', xadmin.site.urls),
