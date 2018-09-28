@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.views.generic import TemplateView
 from django.views.static import serve
 from rest_framework.authtoken import views
 from rest_framework.documentation import include_docs_urls
@@ -23,8 +24,8 @@ import xadmin
 from django.urls import path, include, re_path
 
 from MxShop.settings import MEDIA_ROOT
-from goods.views import GoodsListViewSet, CategoryViewSet
-from trade.views import ShoppingCartViewset, OrderViewset
+from goods.views import GoodsListViewSet, CategoryViewSet, BannerViewset, IndexCategoryViewset, HotSearchsViewset
+from trade.views import ShoppingCartViewset, OrderViewset, AlipayView
 from user_operation.views import UserFavViewset, LeavingMessageViewset, AddressViewset
 from users.views import SmsCodeViewset, UserViewset
 
@@ -56,7 +57,19 @@ router.register(r'shopcarts', ShoppingCartViewset, base_name="shopcarts")
 # 配置订单的url
 router.register(r'orders', OrderViewset, base_name="orders")
 
+# 配置首页轮播图的url
+router.register(r'banners', BannerViewset, base_name="banners")
+
+# 首页系列商品展示url
+router.register(r'indexgoods', IndexCategoryViewset, base_name="indexgoods")
+
+# 首页热搜词
+router.register(r'hotsearchs', HotSearchsViewset, base_name="hotsearchs")
+
 urlpatterns = [
+
+    # 首页
+    path('index/', TemplateView.as_view(template_name='index.html'),name='index'),
     path('admin/', xadmin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('ueditor/', include('DjangoUeditor.urls')),
@@ -68,4 +81,7 @@ urlpatterns = [
     path('api-token-auth/', views.obtain_auth_token),
     # jwt token
     path('login/', obtain_jwt_token),
+
+    # 配置支付宝支付相关接口的url
+    path('alipay/return/', AlipayView.as_view())
 ]

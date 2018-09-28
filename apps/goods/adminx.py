@@ -11,7 +11,7 @@ class GoodsAdmin(object):
     list_display = ["name", "click_num", "sold_num", "fav_num", "goods_num", "market_price",
                     "shop_price", "goods_brief", "goods_desc", "is_new", "is_hot", "add_time"]
     search_fields = ['name', ]
-    list_editable = ["is_hot", ]
+    list_editable = ["is_hot", 'is_new' ]
     list_filter = ["name", "click_num", "sold_num", "fav_num", "goods_num", "market_price",
                    "shop_price", "is_new", "is_hot", "add_time", "category__name"]
     style_fields = {"goods_desc": "ueditor"}
@@ -47,6 +47,7 @@ class BannerGoodsAdmin(object):
 
 class HotSearchAdmin(object):
     list_display = ["keywords", "index", "add_time"]
+    list_editable = ['index']
 
 
 class IndexAdAdmin(object):
